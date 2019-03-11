@@ -1,20 +1,23 @@
-# Awesome
-
-## Contents
+# Contents
 - [Summary](#summary)
 - [About Me](#about-me)
-	- [My Website](#my-website)
-	- [My Gitlab Server](#my-gitlab-server)
+  - [My Website](#my-website)
+  - [My Gitlab Server](#my-gitlab-server)
     - [Dev Ops & CI/CD](#dev-ops)
 - [Projects](#projects)
+  - [Foursee](#foursee)
+  - [Simple GPA Calculator](#min-max-gpa-calculator)
+  - [Fantasy Pay](#fantasy-pay)
+  - [Vue App](#vue-app)
+  
 
-## Summary
+# Summary
 This is a list of some of the awesome stuff that I've done. Okay, not all of it would qualify for a true [Awesome List](https://github.com/sindresorhus/awesome#readme), so maybe this is more of just a list... Oh well. See below for some links to my projects and the code and if available a demo
 
 
-## About me
+# About me
 
-### My website
+## My website
 www.nickbolles.com
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com)
 - [CI/CD](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/pipelines)
@@ -53,9 +56,9 @@ For example, when I commit a change to my website it runs through 3 phases
 - Private NPM registry - http://npm.dev.nickbolles.com:4873/
 - Jira - https://jira.dev.nickbolles.com/
 
-## Projects
+# Projects
 
-### Foursee
+## Foursee
 Source: https://gitlab.dev.nickbolles.com/foursee
 
 #### Summary
@@ -68,10 +71,11 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
   - Angular 1.x (1.5.9 to be exact)
   - Angular Material
   - Angular Animate (ngAnimate) and custom animation code on top
+  - Typescript
+  - SASS
   - D3
   - Ui Router
   - Moment.js
-  - Typescript
   - Gulp
   - Webpack
   - Jasmine
@@ -92,7 +96,7 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
   - Socket.IO
   - Winston.js
   
-### Min-max GPA Calculator
+## Min-max GPA Calculator
 Live Link: https://nickbolles.github.io/minmaxgpacalc/
 Source: https://github.com/NickBolles/minmaxgpacalc
 
@@ -103,10 +107,12 @@ This is a simple calculator that calculates your minimum and maximum attainable 
 - Angular 2+
 - Angular Material 2
 - Angular CLI
+- Typescript
+- SASS
 - D3
 - RXJS
 
-### Fantasy Pay
+## Fantasy Pay
 Source: https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver
 
 #### Summary
@@ -121,13 +127,14 @@ I took this opportunity to dive into Angular 2+ and typescript. I learned a ton 
   - Angular Animate
   - Angular CDK
   - Angular CLI
+  - Typescript
+  - SASS
   - RXJS
   - NGRX store
   - Animate.css
   - D3
   - Moment.js
   - Stripe (payments)
-  - Typescript
   - Jasmine
   - Karma
   - Typedoc
@@ -137,5 +144,33 @@ I took this opportunity to dive into Angular 2+ and typescript. I learned a ton 
   - Passport.js
   - Typescript
   - Nodemailer
+  - Mongoose (and Mongodb)
+  - Socket.IO
+
+## Vue App
+Source: https://gitlab.dev.nickbolles.com/Matt-n-nick/app
+Demo: (currently login is not working because of a package version issue) https://develop-matt-n-nick-app.dev.nickbolles.com
+
+#### Summary
+This is an app that I've been working on with a buddy, Matt, to teach him a bit about how to code websites. We are both using it as an opportunity to learn Vue.js more in-depth as well as Feathers.js as the backend. 
+
+Originally we went down a route of making this an app for recording and reviewing specific meals at restaraunts so that I can actually remember that I don't like the Chicken Parmigiana from Olive garden... Since then we've kinda just been approaching it as a learning experience and will probably use it as a base for something else in the near future.
+
+#### Built With
+- Client
+  - Nuxt.js (Vue.js)
+  - Typescript
+  - Vuex
+  - Feathers-Vuex
+  - Nuxt class component
+  - Nuxt property decorators
+  - Vuetify
+  - SASS
+- Server
+  - Node.js
+  - Feathers-plus/CLI
+  - Feathers.js
+  - Passport.js
+  - Notifme-sdk and notification-catcher
   - Mongoose (and Mongodb)
   - Socket.IO
