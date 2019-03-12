@@ -99,6 +99,7 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
   
 ## Min-max GPA Calculator
 Live Link: https://nickbolles.github.io/minmaxgpacalc/
+
 Source: https://github.com/NickBolles/minmaxgpacalc
 
 #### Summary
@@ -150,6 +151,7 @@ I took this opportunity to dive into Angular 2+ and typescript. I learned a ton 
 
 ## Vue App
 Source: https://gitlab.dev.nickbolles.com/Matt-n-nick/app
+
 Demo: (currently login is not working because of a package version issue) https://develop-matt-n-nick-app.dev.nickbolles.com
 
 #### Summary
