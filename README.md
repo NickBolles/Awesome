@@ -2,7 +2,7 @@
 - [Summary](#summary)
 - [More About Me](#more-about-me)
   - [My Website](#my-website)
-  - [Linked In](#linked-in)
+  - [Linked In (more info on professional experience)](#linked-in)
   - [My Gitlab Server](#my-gitlab-server)
     - [Dev Ops & CI/CD](#dev-ops)
   - [Other Services I Run On My Server](#other-services-i-run-on-my-server)
@@ -41,6 +41,11 @@ My personal website with a little bit of information about me as well as links t
 - ScrollMagic - Animation Library
 - GSAP - Animation Library
 - VSCode
+
+## Resume
+While this document and everything in it is a good overview of my non-professional experience, my resume and LinkedIn are better overviews of my professional experience. My resume can always be found on my website. Whenever I make updates they're available on my site.
+
+https://www.nickbolles.com/Nicholas%20Bolles%20Resume.pdf
 
 ## Linked In
 https://www.linkedin.com/in/nickbolles/
