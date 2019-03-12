@@ -12,6 +12,11 @@
   - [Simple GPA Calculator](#min-max-gpa-calculator)
   - [Fantasy Pay](#fantasy-pay)
   - [Vue App](#vue-app)
+ - [Open Source Contributions](#open-source-contributions)
+   - [React.js](#react.js)
+   - [Vue.js](#vue.js)
+   - [Feathers.js](#feathers.js)
+   - [Misc](#misc)
   
 
 # Summary
@@ -191,18 +196,18 @@ Originally we went down a route of making this an app for recording and reviewin
 
 
 ## Open Source Contributions
-### React.js Ecosystem
+### React.js
 
 - [Next.js auth-module](https://github.com/iaincollins/next-auth)
 
   I submitted the first iteration of Typescript typings for the next-auth module
-### Vue.js Ecosystem
+### Vue.js
 
 - [Nuxt.js](https://github.com/nuxt/nuxt.js)
 
   Helped design and test the native Typescript support in Nuxt 2.4. I've also been active in the support chat to recieve help and help others.
   
-### Feathers EcoSystem
+### Feathers.js
 
 - [Feathers core](https://github.com/feathersjs/feathers)
 
