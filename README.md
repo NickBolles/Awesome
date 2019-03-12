@@ -39,7 +39,7 @@ My personal website has a little bit of information about me as well as links to
 - Full fledged PWA (try loading it up, then turn off your internet and re-load it. Everything except for the contact form should work)
 - [Lighthouse perf score of 88](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/issues/13)
 - CI/CD on every commit
-- Hosted on my home server 
+- Hosted on my home server (powered by [Unraid](https://www.unraid.net/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/) and [Lets Encrypt](https://letsencrypt.org/))
 
 #### Built With
 - Nuxt.js (Vue.js)
@@ -58,7 +58,7 @@ https://www.nickbolles.com/Nicholas%20Bolles%20Resume.pdf
 https://www.linkedin.com/in/nickbolles/
 
 ## My Gitlab Server
-[portfolio.nickbolles.com](portfolio.nickbolles.com) or [gitlab.dev.nickbolles.com/explore/projects](gitlab.dev.nickbolles.com/explore/projects)
+[gitlab.dev.nickbolles.com/explore/projects](gitlab.dev.nickbolles.com/explore/projects)
 
 I host a [Gitlab CE](https://about.gitlab.com/) server on my home server (powered by [Unraid](https://www.unraid.net/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/) and [Lets Encrypt](https://letsencrypt.org/)). Because all of the data is hosted locally, I keep most of my code on my gitlab server. Most of the links in this page link there. 
 
@@ -132,7 +132,7 @@ This is a simple calculator that calculates your minimum and maximum attainable 
 
 ## Fantasy Pay
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver)
-- [More details in the projects Readme.md]https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver/blob/master/README.md)
+- [More details in the projects Readme.md](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver/blob/master/README.md)
 
 #### Summary
 This app was the start of an entrepreneurial effort by a friend of mine. It was going to be a service for collecting and dispersing Fantasy Football and other contest based payments. Unfortunetly we got a ways down the road and realized that the business model had some issues, financially and legally, so we decided to stop the project.
