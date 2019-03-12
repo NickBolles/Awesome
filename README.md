@@ -25,7 +25,7 @@ This is a list of some of the awesome stuff that I've done. Okay, not all of it 
 
 # More About Me
 
-## My website
+## My Website
 www.nickbolles.com
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com)
 - [CI/CD](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/pipelines)
