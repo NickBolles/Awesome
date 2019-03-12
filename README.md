@@ -2,6 +2,7 @@
 - [Summary](#summary)
 - [More About Me](#more-about-me)
   - [My Website](#my-website)
+  - [Resume](#resume)
   - [Linked In (more info on professional experience)](#linked-in)
   - [My Gitlab Server](#my-gitlab-server)
     - [Dev Ops & CI/CD](#dev-ops)
