@@ -15,7 +15,7 @@
   
 
 # Summary
-This is a list of some of the awesome stuff that I've done. Okay, not all of it would qualify for a true [Awesome List](https://github.com/sindresorhus/awesome#readme), so maybe this is more of just a list... Oh well. See below for some links to my projects, the code and if available a demo
+This is a list of some of the awesome stuff that I've done. Okay, not all of it would qualify for a true [Awesome List](https://github.com/sindresorhus/awesome#readme), so maybe this is more of just a list... Oh well. See below for some of the stuff I've done, places to find more info on me and more!
 
 
 # More About Me
@@ -27,7 +27,7 @@ www.nickbolles.com
 - [Docker containers](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/container_registry)
 
 #### Summary
-My personal website with a little bit of information about me as well as links to my most up-to-date resume, my Linked In account, github account and my Gitlab server that I host on my home server. 
+My personal website has a little bit of information about me as well as links to my most up-to-date resume, my Linked In account, github account and my Gitlab server that I host on my home server. 
 
 ##### Highlights
 - Full fledged PWA (try loading it up, then turn off your internet and re-load it. Everything except for the contact form should work)
