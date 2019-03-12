@@ -30,6 +30,7 @@ www.nickbolles.com
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com)
 - [CI/CD](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/pipelines)
 - [Docker containers](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/container_registry)
+- [More details in the projects Readme.md](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/blob/master/README.md)
 
 #### Summary
 My personal website has a little bit of information about me as well as links to my most up-to-date resume, my Linked In account, github account and my Gitlab server that I host on my home server. 
@@ -76,7 +77,7 @@ For example, when I commit a change to my website it runs through 3 phases
 # Projects
 
 ## Foursee
-Source: https://gitlab.dev.nickbolles.com/foursee
+- [Source](https://gitlab.dev.nickbolles.com/foursee)
 
 #### Summary
 Foursee is an app to help students (mostly me) see the effects of every point of every assignment on their grade for that course, their semester GPA and their overall GPA. I can't count how many times myself or friends grabbed a calculator and tried our best to calculate this. If we just had an app to keep track of it and show us the minimum and maximum grades we can get and what the bigger effect would be if we got those grades, it would save a bunch of time that we could be spending on studying!
@@ -114,9 +115,8 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
   - Winston.js
   
 ## Min-max GPA Calculator
-Live Link: https://nickbolles.github.io/minmaxgpacalc/
-
-Source: https://github.com/NickBolles/minmaxgpacalc
+- [Live Link](https://nickbolles.github.io/minmaxgpacalc/)
+- [Source](https://github.com/NickBolles/minmaxgpacalc)
 
 #### Summary
 This is a simple calculator that calculates your minimum and maximum attainable GPA given your current credits, GPA and how many credits you have left. 
@@ -131,14 +131,13 @@ This is a simple calculator that calculates your minimum and maximum attainable 
 - RXJS
 
 ## Fantasy Pay
-Source: https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver
+- [Source](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver)
+- [More details in the projects Readme.md]https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver/blob/master/README.md)
 
 #### Summary
 This app was the start of an entrepreneurial effort by a friend of mine. It was going to be a service for collecting and dispersing Fantasy Football and other contest based payments. Unfortunetly we got a ways down the road and realized that the business model had some issues, financially and legally, so we decided to stop the project.
 
 I took this opportunity to dive into Angular 2+ and typescript. I learned a ton and really got into advanced Typescript usage. 
-
-For more details see the projects readme: https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver/blob/master/README.md
 
 #### Built With
 - Client
