@@ -138,6 +138,8 @@ This app was the start of an entrepreneurial effort by a friend of mine. It was 
 
 I took this opportunity to dive into Angular 2+ and typescript. I learned a ton and really got into advanced Typescript usage. 
 
+For more details see the projects readme: https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver/blob/master/README.md
+
 #### Built With
 - Client
   - Angular 2+ (4.x)
