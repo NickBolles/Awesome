@@ -1,9 +1,11 @@
 # Contents
 - [Summary](#summary)
-- [About Me](#about-me)
+- [More About Me](#more-about-me)
   - [My Website](#my-website)
+  - [Linked In](#linked-in)
   - [My Gitlab Server](#my-gitlab-server)
     - [Dev Ops & CI/CD](#dev-ops)
+  - [Other Services I Run On My Server](#other-services-i-run-on-my-server)
 - [Projects](#projects)
   - [Foursee](#foursee)
   - [Simple GPA Calculator](#min-max-gpa-calculator)
@@ -15,7 +17,7 @@
 This is a list of some of the awesome stuff that I've done. Okay, not all of it would qualify for a true [Awesome List](https://github.com/sindresorhus/awesome#readme), so maybe this is more of just a list... Oh well. See below for some links to my projects, the code and if available a demo
 
 
-# About me
+# More About Me
 
 ## My website
 www.nickbolles.com
@@ -40,7 +42,10 @@ My personal website with a little bit of information about me as well as links t
 - GSAP - Animation Library
 - VSCode
 
-### My Gitlab Server
+## Linked In
+https://www.linkedin.com/in/nickbolles/
+
+## My Gitlab Server
 [portfolio.nickbolles.com](portfolio.nickbolles.com) or [gitlab.dev.nickbolles.com/explore/projects](gitlab.dev.nickbolles.com/explore/projects)
 
 I host a [Gitlab CE](https://about.gitlab.com/) server on my home server (powered by [Unraid](https://www.unraid.net/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/) and [Lets Encrypt](https://letsencrypt.org/)). Because all of the data is hosted locally, I keep most of my code on my gitlab server. Most of the links in this page link there. 
@@ -53,7 +58,7 @@ For example, when I commit a change to my website it runs through 3 phases
 3. Build a docker container for the app
 5. Deploy the docker container with Traefik configured to setup Lets Encrypt automagically
 
-### Other services I run
+## Other Services I Run On My Server
 - Private NPM registry - http://npm.dev.nickbolles.com:4873/
 - Jira - https://jira.dev.nickbolles.com/
 
