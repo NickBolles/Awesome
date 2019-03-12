@@ -29,7 +29,8 @@ My personal website with a little bit of information about me as well as links t
 ##### Highlights
 - Full fledged PWA (try loading it up, then turn off your internet and re-load it. Everything except for the contact form should work)
 - [Lighthouse perf score of 88](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/issues/13)
-- CI/CD
+- CI/CD on every commit
+- Hosted on my home server 
 
 #### Built With
 - Nuxt.js (Vue.js)
