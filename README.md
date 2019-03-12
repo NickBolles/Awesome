@@ -188,3 +188,40 @@ Originally we went down a route of making this an app for recording and reviewin
   - Notifme-sdk and notification-catcher
   - Mongoose (and Mongodb)
   - Socket.IO
+
+
+## Open Source Contributions
+### React.js Ecosystem
+
+- [Next.js auth-module](https://github.com/iaincollins/next-auth)
+
+  I submitted the first iteration of Typescript typings for the next-auth module
+### Vue.js Ecosystem
+
+- [Nuxt.js](https://github.com/nuxt/nuxt.js)
+
+  Helped design and test the native Typescript support in Nuxt 2.4. I've also been active in the support chat to recieve help and help others.
+  
+### Feathers EcoSystem
+
+- [Feathers core](https://github.com/feathersjs/feathers)
+
+  I've submitted a few typing enhancements to the Typescript type definitions in [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped). I'm also helping convert the entire codebase to Typescript to make maintaining type definitions a thing of the past and improve multiple internal Feathers issues. I've also been active in the chat to learn and help others.
+  
+- [Feathers-plus/CLI](https://github.com/feathers-plus/generator-feathers-plus)
+
+  Feathers-plus/CLI is a coding buddy. It's built on top of Yeoman and generates a ton of code for you and is safe to re-run. This is huge because it's not just a copy and paste boilerplate, it's a living breathing upgradable project. I've become one of the several goto people for Typescript in Feathers-plus/CLI and I am in communication with the core maintainer
+  
+- [Feathers-Vuex](https://github.com/feathers-plus/feathers-vuex)
+
+  Feathers-Vuex makes communicating between feathers and your vue components super simple, and efficient (thanks to state management by Vuex). I've developed the typescript types and a few other fixes for Feathers-Vuex.
+  
+- [Feathers-hooks-commons](https://github.com/feathers-plus/feathers-hooks-common)
+
+  I've contributed to a few PRs on this, including typescript definitions and submitted a few enhancements
+
+### Misc
+
+- Strapi.js
+
+  Strapi is a CMS that aims to be completely customizable. I started using it in a project and did several PRs before hitting deal-breaker and not simple to fix issues and moved to a Feathers based solution
