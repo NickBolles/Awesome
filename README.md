@@ -25,7 +25,7 @@ This is a list of some of the awesome stuff that I've done. Okay, not all of it 
 
 # More About Me
 
-## My Website
+### My Website
 www.nickbolles.com
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com)
 - [CI/CD](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/pipelines)
@@ -49,15 +49,15 @@ My personal website has a little bit of information about me as well as links to
 - GSAP - Animation Library
 - VSCode
 
-## Resume
+### Resume
 While this document and everything in it is a good overview of my non-professional experience, my resume and LinkedIn are better overviews of my professional experience. My resume can always be found on my website. Whenever I make updates they're available on my site.
 
 https://www.nickbolles.com/Nicholas%20Bolles%20Resume.pdf
 
-## Linked In
+### Linked In
 https://www.linkedin.com/in/nickbolles/
 
-## My Gitlab Server
+### My Gitlab Server
 [gitlab.dev.nickbolles.com/explore/projects](gitlab.dev.nickbolles.com/explore/projects)
 
 I host a [Gitlab CE](https://about.gitlab.com/) server on my home server (powered by [Unraid](https://www.unraid.net/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/) and [Lets Encrypt](https://letsencrypt.org/)). Because all of the data is hosted locally, I keep most of my code on my gitlab server. Most of the links in this page link there. 
@@ -70,9 +70,21 @@ For example, when I commit a change to my website it runs through 3 phases
 3. Build a docker container for the app
 5. Deploy the docker container with Traefik configured to setup Lets Encrypt automagically
 
-## Other Services I Run On My Server
-- Private NPM registry - http://npm.dev.nickbolles.com:4873/
-- Jira - https://jira.dev.nickbolles.com/
+### Other Services I Run On My Server
+- Gitlab - https://gitlab.dev.nickbolles.com/explore/projects
+- Gitlab dev ops runners
+- Private NPM registry - https://npm.nickbolles.com/
+- Jira
+- MongoDB
+- MariaDB
+- Postgresql
+- Redis
+- InfluxDB
+- Elastic Search & Kibana
+- Nextcloud
+- Multiple [code-server](https://github.com/cdr/code-server) instances for development
+- Tons of other stuff, Docker is awesome!
+
 
 # Projects
 
@@ -205,9 +217,16 @@ Originally we went down a route of making this an app for recording and reviewin
 ### Vue.js
 
 - [Nuxt.js](https://github.com/nuxt/nuxt.js)
+  - Helped design and test the native Typescript support in Nuxt 2.4. I've also been active in the support chat to recieve help and help others.
+  - Help add Typescript support to create-nuxt-app - [Pull Request](https://github.com/nuxt/create-nuxt-app/pull/328)
+- nuxt.js/axios
+  - Improve typescript instructions - [Pull Request](https://github.com/nuxt-community/axios-module/pull/264)
 
-  Helped design and test the native Typescript support in Nuxt 2.4. I've also been active in the support chat to recieve help and help others.
-  
+### Nest.js
+
+- Fixes for @nestjs/graphql - [Pull Request](https://github.com/nestjs/graphql/pull/317)
+- Create Accounts.js module for integration into nest.js - [Pull Request](https://github.com/accounts-js/accounts/pull/840)
+
 ### Feathers.js
 
 - [Feathers core](https://github.com/feathersjs/feathers)
@@ -216,15 +235,22 @@ Originally we went down a route of making this an app for recording and reviewin
   
 - [Feathers-plus/CLI](https://github.com/feathers-plus/generator-feathers-plus)
 
-  Feathers-plus/CLI is a coding buddy. It's built on top of Yeoman and generates a ton of code for you and is safe to re-run. This is huge because it's not just a copy and paste boilerplate, it's a living breathing upgradable project. I've become one of the several goto people for Typescript in Feathers-plus/CLI and I am in communication with the core maintainer
+  Feathers-plus/CLI is a coding buddy. It's built on top of Yeoman and generates a ton of code for you and is safe to re-run. This is huge because it's not just a copy and paste boilerplate, it's a living breathing upgradable project. I've become one of the several goto people for Typescript in Feathers-plus/CLI and I am in communication with the core maintainer. 
+   As of october 2019, this project has become stagnant. I've begun using other server frameworks (primarily nest.js)
   
 - [Feathers-Vuex](https://github.com/feathers-plus/feathers-vuex)
 
   Feathers-Vuex makes communicating between feathers and your vue components super simple, and efficient (thanks to state management by Vuex). I've developed the typescript types and a few other fixes for Feathers-Vuex.
+  - support SSR and fix serialization of models - [Pull Request](https://github.com/feathersjs-ecosystem/feathers-vuex)
   
 - [Feathers-hooks-commons](https://github.com/feathers-plus/feathers-hooks-common)
 
-  I've contributed to a few PRs on this, including typescript definitions and submitted a few enhancements
+  I've contributed to a few PRs on this, including [typescript definitions](https://github.com/feathersjs-ecosystem/feathers-hooks-common/pull/469) and submitted a few enhancements
+
+### Accounts.js
+
+- Create Accounts.js module for integration into nest.js - [Pull Request](https://github.com/accounts-js/accounts/pull/840)
+- Several Misc fixes - to [typings](https://github.com/accounts-js/accounts/pull/825) - to [error handling](https://github.com/accounts-js/accounts/pull/826) - to [Impersonation API](https://github.com/accounts-js/accounts/pull/841)
 
 ### Misc
 
