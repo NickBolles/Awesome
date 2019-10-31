@@ -58,7 +58,7 @@ https://www.nickbolles.com/Nicholas%20Bolles%20Resume.pdf
 https://www.linkedin.com/in/nickbolles/
 
 ### My Gitlab Server
-[gitlab.dev.nickbolles.com/explore/projects](gitlab.dev.nickbolles.com/explore/projects)
+[gitlab.dev.nickbolles.com/explore/projects](https://gitlab.dev.nickbolles.com/explore/projects)
 
 I host a [Gitlab CE](https://about.gitlab.com/) server on my home server (powered by [Unraid](https://www.unraid.net/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/) and [Lets Encrypt](https://letsencrypt.org/)). Because all of the data is hosted locally, I keep most of my code on my gitlab server. Most of the links in this page link there. 
 
