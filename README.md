@@ -112,8 +112,8 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
   - Karma
   - Typedoc
   - Cordova
-  - @nb/eduItemModel - [Private NPM Link](http://npm.dev.nickbolles.com:4873/#/detail/@nb/eduitemmodel)
-    - This is the model backing the project. It's huge, and uses an Observable data model ([@nb/nbobservable](http://npm.dev.nickbolles.com:4873/#/detail/@nb/nbobservable)) and proxies ([MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) - [npm module @nb/nbproxy](http://npm.dev.nickbolles.com:4873/#/detail/@nb/nbproxy)) to notify observers, **much like [Vue.js V3.0 will do](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)**
+  - @nb/eduItemModel - [Private NPM Link](http://npm.nickbolles.com/#/detail/@nb/eduitemmodel)
+    - This is the model backing the project. It's huge, and uses an Observable data model ([@nb/nbobservable](http://npm.nickbolles.com/#/detail/@nb/nbobservable)) and proxies ([MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) - [npm module @nb/nbproxy](http://npm.nickbolles.com/#/detail/@nb/nbproxy)) to notify observers, **much like [Vue.js V3.0 will do](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)**
 - Server
   - Node.js
   - Express.js
