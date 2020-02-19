@@ -26,7 +26,7 @@ This is a list of some of the awesome stuff that I've done. Okay, not all of it 
 # More About Me
 
 ### My Website
-www.nickbolles.com
+[www.nickbolles.com](https://www.nickbolles.com)
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com)
 - [CI/CD](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/pipelines)
 - [Docker containers](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/container_registry)
@@ -52,10 +52,10 @@ My personal website has a little bit of information about me as well as links to
 ### Resume
 While this document and everything in it is a good overview of my non-professional experience, my resume and LinkedIn are better overviews of my professional experience. My resume can always be found on my website. Whenever I make updates they're available on my site.
 
-https://www.nickbolles.com/Nicholas%20Bolles%20Resume.pdf
+[Resume Document](https://www.nickbolles.com/Nicholas%20Bolles%20Resume.pdf)
 
 ### Linked In
-https://www.linkedin.com/in/nickbolles/
+[linkedin.com/in/nickbolles/](https://www.linkedin.com/in/nickbolles/)
 
 ### My Gitlab Server
 [gitlab.dev.nickbolles.com/explore/projects](https://gitlab.dev.nickbolles.com/explore/projects)
@@ -71,9 +71,10 @@ For example, when I commit a change to my website it runs through 3 phases
 5. Deploy the docker container with Traefik configured to setup Lets Encrypt automagically
 
 ### Other Services I Run On My Server
-- Gitlab - https://gitlab.dev.nickbolles.com/explore/projects
+- [Traefik](https://traefik.io/) for HTTPS by default
+- Gitlab - [gitlab.dev.nickbolles.com/explore/projects](https://gitlab.dev.nickbolles.com/explore/projects)
 - Gitlab dev ops runners
-- Private NPM registry - https://npm.nickbolles.com/
+- Private NPM registry - [npm.nickbolles.com/](https://npm.nickbolles.com/)
 - Jira
 - MongoDB
 - MariaDB
@@ -113,7 +114,7 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
   - Typedoc
   - Cordova
   - @nb/eduItemModel - [Private NPM Link](http://npm.nickbolles.com/#/detail/@nb/eduitemmodel)
-    - This is the model backing the project. It's huge, and uses an Observable data model ([@nb/nbobservable](http://npm.nickbolles.com/#/detail/@nb/nbobservable)) and proxies ([MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) - [npm module @nb/nbproxy](http://npm.nickbolles.com/#/detail/@nb/nbproxy)) to notify observers, **much like [Vue.js V3.0 will do](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)**
+    - This is the model backing the project. it's complex and uses an Observable data model ([@nb/nbobservable](http://npm.nickbolles.com/#/detail/@nb/nbobservable)) based on proxies ([MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) - [npm module @nb/nbproxy](http://npm.nickbolles.com/#/detail/@nb/nbproxy)) to notify observers, **much like [Vue.js V3.0 will do](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)**
 - Server
   - Node.js
   - Express.js
@@ -179,10 +180,10 @@ I took this opportunity to dive into Angular 2+ and typescript. I learned a ton 
   - Socket.IO
 
 ## Vue App
-Source: https://gitlab.dev.nickbolles.com/Matt-n-nick/app
+Source: [https://gitlab.dev.nickbolles.com/Matt-n-nick/app](https://gitlab.dev.nickbolles.com/Matt-n-nick/app)
 
-Demo: (currently login is not working because of a package version issue) https://develop-matt-n-nick-app.dev.nickbolles.com
-
+Demo: https://develop-matt-n-nick-app.dev.nickbolles.com
+> (currently login is not working because of a package version issue)
 #### Summary
 This is an app that I've been working on with a buddy, Matt, to teach him a bit about how to code websites. We are both using it as an opportunity to learn Vue.js more in-depth as well as Feathers.js as the backend. 
 
