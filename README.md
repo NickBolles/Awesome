@@ -126,22 +126,6 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
   - Mongoose (and Mongodb)
   - Socket.IO
   - Winston.js
-  
-## Min-max GPA Calculator
-- [Live Link](https://nickbolles.github.io/minmaxgpacalc/)
-- [Source](https://github.com/NickBolles/minmaxgpacalc)
-
-#### Summary
-This is a simple calculator that calculates your minimum and maximum attainable GPA given your current credits, GPA and how many credits you have left. 
-
-#### Built With
-- Angular 2+
-- Angular Material 2
-- Angular CLI
-- Typescript
-- SASS
-- D3
-- RXJS
 
 ## Fantasy Pay
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver)
@@ -178,6 +162,37 @@ I took this opportunity to dive into Angular 2+ and typescript. I learned a ton 
   - Nodemailer
   - Mongoose (and Mongodb)
   - Socket.IO
+
+## Min-max GPA Calculator
+- [Live Link](https://nickbolles.github.io/minmaxgpacalc/)
+- [Source](https://github.com/NickBolles/minmaxgpacalc)
+
+#### Summary
+This is a simple calculator that calculates your minimum and maximum attainable GPA given your current credits, GPA and how many credits you have left. 
+
+#### Built With
+- Angular 2+
+- Angular Material 2
+- Angular CLI
+- Typescript
+- SASS
+- D3
+- RXJS
+
+## JS AST Visualizer
+- [Live Link](https://jsastexplorer.nickbolles.com/)
+- [Source](https://gitlab.dev.nickbolles.com/nbolles/js-ast-explorer)
+
+#### Summary
+This is a simple abstract symbol tree (AST) parser that prints out a visualization of it the AST. My goal was to understand how transpilers like typescript and babel work, more in depth. I think it would be really cool to do this in a way that helps teach the difference between typescript and javascript. Which parts are TS, which parts are just JS. This could maybe help people learn TS easier.
+
+#### Built With
+- React - next.js & react hooks
+- Typescript
+- Material-ui
+- jss - js styles
+- code-mirror editor
+- babel - for AST parsing/traversal
 
 ## Vue App
 Source: [https://gitlab.dev.nickbolles.com/Matt-n-nick/app](https://gitlab.dev.nickbolles.com/Matt-n-nick/app)
@@ -222,11 +237,15 @@ Originally we went down a route of making this an app for recording and reviewin
   - Help add Typescript support to create-nuxt-app - [Pull Request](https://github.com/nuxt/create-nuxt-app/pull/328)
 - nuxt.js/axios
   - Improve typescript instructions - [Pull Request](https://github.com/nuxt-community/axios-module/pull/264)
+- [nuxt.js/auth](https://github.com/nuxt-community/auth-module/)
+  - Use nuxt base url setting - [Pull Request](https://github.com/nuxt-community/auth-module/)
+  - Typescript typings - [Pull Request](https://github.com/nuxt-community/auth-module/pull/486)
 
 ### Nest.js
 
 - Fixes for @nestjs/graphql - [Pull Request](https://github.com/nestjs/graphql/pull/317)
 - Create Accounts.js module for integration into nest.js - [Pull Request](https://github.com/accounts-js/accounts/pull/840)
+- Tyings fix for @nestjs/passport - [Pull Request](https://github.com/nestjs/passport/pull/134)
 
 ### Feathers.js
 
@@ -253,8 +272,14 @@ Originally we went down a route of making this an app for recording and reviewin
 - Create Accounts.js module for integration into nest.js - [Pull Request](https://github.com/accounts-js/accounts/pull/840)
 - Several Misc fixes - to [typings](https://github.com/accounts-js/accounts/pull/825) - to [error handling](https://github.com/accounts-js/accounts/pull/826) - to [Impersonation API](https://github.com/accounts-js/accounts/pull/841)
 
+### Cypress
+
+- Add typescript typings - [Pull Request](https://github.com/bahmutov/cypress-vue-unit-test/pull/236)
+
 ### Misc
 
+- Typescript Typings
+  - Mongo-connection-string - [Pull Request](https://github.com/dwmkerr/mongo-connection-string/pull/16)
 - Strapi.js
-
   Strapi is a CMS that aims to be completely customizable. I started using it in a project and did several PRs before hitting deal-breaker and not simple to fix issues and moved to a Feathers based solution
+ - Graphql-code-generator - decorator customization - [Pull Request](https://github.com/dotansimha/graphql-code-generator/pull/2448)
