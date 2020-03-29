@@ -284,6 +284,8 @@ Originally we went down a route of making this an app for recording and reviewin
 
 - Typescript Typings
   - Mongo-connection-string - [Pull Request](https://github.com/dwmkerr/mongo-connection-string/pull/16)
+- ts-configurable
+  - contribute tests for a missing piece of functionality - [Pull Request](https://github.com/derbenoo/ts-configurable/pull/38) - [Issue with link to fix](https://github.com/derbenoo/ts-configurable/issues/37)
 - Strapi.js
   Strapi is a CMS that aims to be completely customizable. I started using it in a project and did several PRs before hitting deal-breaker and not simple to fix issues and moved to a Feathers based solution
  - Graphql-code-generator - decorator customization - [Pull Request](https://github.com/dotansimha/graphql-code-generator/pull/2448)
