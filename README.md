@@ -13,9 +13,12 @@
   - [Fantasy Pay](#fantasy-pay)
   - [Vue App](#vue-app)
  - [Open Source Contributions](#open-source-contributions)
-   - [React.js](#react.js)
-   - [Vue.js](#vue.js)
-   - [Feathers.js](#feathers.js)
+   - [React.js](#react\.js)
+   - [Vue.js](#vue\.js)
+   - [Nest.js](#nest\.js)
+   - [Feathers.js](#feathers\.js)
+   - [Accounts.js](#accounts\.js)
+   - [Cypress](#cypress)
    - [Misc](#misc)
   
 
@@ -235,6 +238,7 @@ Originally we went down a route of making this an app for recording and reviewin
 - [Nuxt.js](https://github.com/nuxt/nuxt.js)
   - Helped design and test the native Typescript support in Nuxt 2.4. I've also been active in the support chat to recieve help and help others.
   - Help add Typescript support to create-nuxt-app - [Pull Request](https://github.com/nuxt/create-nuxt-app/pull/328)
+  - Add Typescript generation of components and tests to create-nuxt-app - [Pull Request](https://github.com/nuxt/create-nuxt-app/pull/449)
 - nuxt.js/axios
   - Improve typescript instructions - [Pull Request](https://github.com/nuxt-community/axios-module/pull/264)
 - [nuxt.js/auth](https://github.com/nuxt-community/auth-module/)
