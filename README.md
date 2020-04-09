@@ -279,6 +279,9 @@ Originally we went down a route of making this an app for recording and reviewin
 ### Cypress
 
 - Add typescript typings - [Pull Request](https://github.com/bahmutov/cypress-vue-unit-test/pull/236)
+- Publish Cypress-nuxt ![npm](https://img.shields.io/npm/dt/cypress-nuxt?label=Cypress-Nuxt%20Downloads)
+  - [repo](https://github.com/NickBolles/cypress-nuxt) 
+  - [stats](http://npm-stats.org/#/cypress-nuxt)
 
 ### Misc
 
