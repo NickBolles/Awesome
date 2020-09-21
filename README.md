@@ -69,9 +69,9 @@ I host a [Gitlab CE](https://about.gitlab.com/) server on my home server (powere
 One of the coolest things about running my own gitlab server, and having a docker based home server, is the dev ops and auto review apps. This means that I can setup Gitlab CI/CD to spin up a docker container that will do testing, building, performance testing etc. on every commit, as well as deploy to a docker container and automatically setup the routing with Traefik and set up HTTPS with Let's Encrypt.
 
 For example, when I commit a change to my website it runs through 3 phases
-1. Build the app, which will check for any build issues, especially with Typescript (this is seperate because Docker hides some build issues sometimes, not quite sure why)
+1. Build the app, which will check for any build issues, especially with Typescript (this is separate because Docker hides some build issues sometimes, not quite sure why)
 3. Build a docker container for the app
-5. Deploy the docker container with Traefik configured to setup Lets Encrypt automagically
+5. Deploy the docker container with Traefik configured to setup Lets Encrypt auto-magically
 
 ### Other Services I Run On My Server
 - [Traefik](https://traefik.io/) for HTTPS by default
@@ -135,7 +135,7 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
 - [More details in the projects Readme.md](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver/blob/master/README.md)
 
 #### Summary
-This app was the start of an entrepreneurial effort by a friend of mine. It was going to be a service for collecting and dispersing Fantasy Football and other contest based payments. Unfortunetly we got a ways down the road and realized that the business model had some issues, financially and legally, so we decided to stop the project.
+This app was the start of an entrepreneurial effort by a friend of mine. It was going to be a service for collecting and dispersing Fantasy Football and other contest based payments. Unfortunately we got a ways down the road and realized that the business model had some issues, financially and legally, so we decided to stop the project.
 
 I took this opportunity to dive into Angular 2+ and typescript. I learned a ton and really got into advanced Typescript usage. 
 
@@ -205,7 +205,7 @@ Demo: https://develop-matt-n-nick-app.dev.nickbolles.com
 #### Summary
 This is an app that I've been working on with a buddy, Matt, to teach him a bit about how to code websites. We are both using it as an opportunity to learn Vue.js more in-depth as well as Feathers.js as the backend. 
 
-Originally we went down a route of making this an app for recording and reviewing specific meals at restaraunts so that I can actually remember that I don't like the Chicken Parmigiana from Olive garden... Since then we've kinda just been approaching it as a learning experience and will probably use it as a base for something else in the near future.
+Originally we went down a route of making this an app for recording and reviewing specific meals at restaurants so that I can actually remember that I don't like the Chicken Parmigiana from Olive garden... Since then we've kinda just been approaching it as a learning experience and will probably use it as a base for something else in the near future.
 
 #### Built With
 - Client
@@ -236,7 +236,7 @@ Originally we went down a route of making this an app for recording and reviewin
 ### Vue.js
 
 - [Nuxt.js](https://github.com/nuxt/nuxt.js)
-  - Helped design and test the native Typescript support in Nuxt 2.4. I've also been active in the support chat to recieve help and help others.
+  - Helped design and test the native Typescript support in Nuxt 2.4. I've also been active in the support chat to receive help and help others.
   - Help add Typescript support to create-nuxt-app - [Pull Request](https://github.com/nuxt/create-nuxt-app/pull/328)
   - Add Typescript generation of components and tests to create-nuxt-app - [Pull Request](https://github.com/nuxt/create-nuxt-app/pull/449)
 - nuxt.js/axios
@@ -249,7 +249,7 @@ Originally we went down a route of making this an app for recording and reviewin
 
 - Fixes for @nestjs/graphql - [Pull Request](https://github.com/nestjs/graphql/pull/317)
 - Create Accounts.js module for integration into nest.js - [Pull Request](https://github.com/accounts-js/accounts/pull/840)
-- Tyings fix for @nestjs/passport - [Pull Request](https://github.com/nestjs/passport/pull/134)
+- Typings fix for @nestjs/passport - [Pull Request](https://github.com/nestjs/passport/pull/134)
 
 ### Feathers.js
 
@@ -282,6 +282,7 @@ Originally we went down a route of making this an app for recording and reviewin
 - Publish Cypress-nuxt ![npm](https://img.shields.io/npm/dt/cypress-nuxt?label=Cypress-Nuxt%20Downloads)
   - [repo](https://github.com/NickBolles/cypress-nuxt) 
   - [stats](http://npm-stats.org/#/cypress-nuxt)
+  - showcased on [Cypress.io](https://docs.cypress.io/plugins/#framework-tooling)
 
 ### Misc
 
