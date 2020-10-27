@@ -25,6 +25,9 @@
 # Summary
 This is a list of some of the awesome stuff that I've done. Okay, not all of it would qualify for a true [Awesome List](https://github.com/sindresorhus/awesome#readme), so maybe this is more of just a list... Oh well. See below for some of the stuff I've done, places to find more info on me and more!
 
+## Some fun Stats
+[![Nick's github stats](https://github-readme-stats.vercel.app/api?username=nickbolles&theme=gotham)](https://github.com/nickbolles)
+
 
 # More About Me
 
@@ -40,11 +43,11 @@ My personal website has a little bit of information about me as well as links to
 
 ##### Highlights
 - Full fledged PWA (try loading it up, then turn off your internet and re-load it. Everything except for the contact form should work)
-- [Lighthouse perf score of 88](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/issues/13)
+- [Lighthouse perf score of 100 across the board](https://googlechrome.github.io/lighthouse/viewer/?gist=36bca3776a5fb5478db23f6babeddab6)
 - CI/CD on every commit
-- Hosted on my home server (powered by [Unraid](https://www.unraid.net/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/) and [Lets Encrypt](https://letsencrypt.org/))
+- Hosted on [![Vercel](https://vercel.com/button)](https://vercel.com/)
 
-#### Built With
+##### Built With
 - Nuxt.js (Vue.js)
 - Typescript
 - Vuetify - UI Library
@@ -100,8 +103,8 @@ Foursee is an app to help students (mostly me) see the effects of every point of
 
 This was the first app that I really dove into. I learned a ton and re-wrote it like 6 times. I just wanted to learn how to do it right. In it's current state it's actually very well organized and has some really cool patterns to keep the code really DRY. It isn't complete, but there is a rendering on the [app's readme](https://gitlab.dev.nickbolles.com/foursee/foursee-app/blob/development/readme.md) of what it looks like in action.
 
-#### Built With
-- Client
+##### Built With
+  - Client
   - Angular 1.x (1.5.9 to be exact)
   - Angular Material
   - Angular Animate (ngAnimate) and custom animation code on top
@@ -118,7 +121,7 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
   - Cordova
   - @nb/eduItemModel - [Private NPM Link](http://npm.nickbolles.com/#/detail/@nb/eduitemmodel)
     - This is the model backing the project. it's complex and uses an Observable data model ([@nb/nbobservable](http://npm.nickbolles.com/#/detail/@nb/nbobservable)) based on proxies ([MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) - [npm module @nb/nbproxy](http://npm.nickbolles.com/#/detail/@nb/nbproxy)) to notify observers, **much like [Vue.js V3.0 will do](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)**
-- Server
+  - Server
   - Node.js
   - Express.js
   - Passport.js
@@ -139,8 +142,8 @@ This app was the start of an entrepreneurial effort by a friend of mine. It was 
 
 I took this opportunity to dive into Angular 2+ and typescript. I learned a ton and really got into advanced Typescript usage. 
 
-#### Built With
-- Client
+##### Built With
+  - Client
   - Angular 2+ (4.x)
   - Angular Material 2
   - Angular Animate
@@ -157,7 +160,7 @@ I took this opportunity to dive into Angular 2+ and typescript. I learned a ton 
   - Jasmine
   - Karma
   - Typedoc
-- Server
+  - Server
   - Node.js
   - Express.js
   - Passport.js
@@ -173,7 +176,7 @@ I took this opportunity to dive into Angular 2+ and typescript. I learned a ton 
 #### Summary
 This is a simple calculator that calculates your minimum and maximum attainable GPA given your current credits, GPA and how many credits you have left. 
 
-#### Built With
+##### Built With
 - Angular 2+
 - Angular Material 2
 - Angular CLI
@@ -207,7 +210,7 @@ This is an app that I've been working on with a buddy, Matt, to teach him a bit 
 
 Originally we went down a route of making this an app for recording and reviewing specific meals at restaurants so that I can actually remember that I don't like the Chicken Parmigiana from Olive garden... Since then we've kinda just been approaching it as a learning experience and will probably use it as a base for something else in the near future.
 
-#### Built With
+##### Built With
 - Client
   - Nuxt.js (Vue.js)
   - Typescript
