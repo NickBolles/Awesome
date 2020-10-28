@@ -27,12 +27,14 @@ This is a list of some of the awesome stuff that I've done. Okay, not all of it 
 
 # Connect with me
 
-[www.nickbolles.com](https://www.nickbolles.com)
 > While this document is a good overview of my non-professional experience, my resume and LinkedIn are better overviews of my professional experience. My most up-to-date resume can always be found on my website
 
-[![](https://img.shields.io/static/v1?logo=LinkedIn&style=flat-square&labelColor=blue&color=blue&label=&message=Connect%20On%20LinkedIn)](https://linkedin.com/in/nickbolles)
+
+[www.nickbolles.com](https://www.nickbolles.com)
 
 [nickbolles.com/resume](https://www.nickbolles.com/resume)
+
+[![](https://img.shields.io/static/v1?logo=LinkedIn&style=flat-square&labelColor=blue&color=blue&label=&message=Connect%20On%20LinkedIn)](https://linkedin.com/in/nickbolles)
 
 
 
