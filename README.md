@@ -1,99 +1,137 @@
 # Contents
 - [Summary](#summary)
-- [More About Me](#more-about-me)
-  - [My Website](#my-website)
-  - [Resume](#resume)
-  - [Linked In (more info on professional experience)](#linked-in)
-  - [My Gitlab Server](#my-gitlab-server)
-    - [Dev Ops & CI/CD](#dev-ops)
-  - [Other Services I Run On My Server](#other-services-i-run-on-my-server)
+- [Connect with me](#connect-with-me)
 - [Projects](#projects)
-  - [Foursee](#foursee)
-  - [Simple GPA Calculator](#min-max-gpa-calculator)
+  - [My Website](#my-website)
   - [Fantasy Pay](#fantasy-pay)
   - [Vue App](#vue-app)
- - [Open Source Contributions](#open-source-contributions)
-   - [React.js](#reactjs)
-   - [Vue.js](#vuejs)
-   - [Nest.js](#nestjs)
-   - [Feathers.js](#feathersjs)
-   - [Accounts.js](#accountsjs)
-   - [Cypress](#cypress)
-   - [Misc](#misc)
+  - [Foursee](#foursee)
+  - [Simple GPA Calculator](#min-max-gpa-calculator)
+  - [JS AST Visualizer](#min-max-gpa-calculator)
+  - [My Website (previous version - v2)](#my-website-previous-version)
+  - [My Gitlab Server](#my-gitlab-server)
+    - [Dev Ops & CI/CD](#dev-ops)
+    - [Other Services I Run On My Server](#other-services-i-run-on-my-server)
+- [Open Source Contributions](#open-source-contributions)
+ - [React.js](#reactjs)
+ - [Vue.js](#vuejs)
+ - [Nest.js](#nestjs)
+ - [Feathers.js](#feathersjs)
+ - [Accounts.js](#accountsjs)
+ - [Cypress](#cypress)
+ - [Misc](#misc)
   
 
 # Summary
 This is a list of some of the awesome stuff that I've done. Okay, not all of it would qualify for a true [Awesome List](https://github.com/sindresorhus/awesome#readme), so maybe this is more of just a list... Oh well. See below for some of the stuff I've done, places to find more info on me and more!
 
+# Connect with me
+
+[www.nickbolles.com](https://www.nickbolles.com)
+> While this document is a good overview of my non-professional experience, my resume and LinkedIn are better overviews of my professional experience. My most up-to-date resume can always be found on my website
+
+[![](https://img.shields.io/static/v1?logo=LinkedIn&style=flat-square&labelColor=blue&color=blue&label=&message=Connect%20On%20LinkedIn)](https://linkedin.com/in/nickbolles)
+
+[nickbolles.com/resume](https://www.nickbolles.com/resume)
+
+
+
 ## Some fun Stats
 [![Nick's github stats](https://github-readme-stats.vercel.app/api?username=nickbolles&theme=gotham)](https://github.com/nickbolles)
 
 
-# More About Me
+
+# Projects
 
 ### My Website
 [www.nickbolles.com](https://www.nickbolles.com)
-- [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com)
-- [CI/CD](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/pipelines)
-- [Docker containers](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/container_registry)
+- [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/-/tree/master/v3-svelte)
 - [More details in the projects Readme.md](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/blob/master/README.md)
 
 #### Summary
-My personal website has a little bit of information about me as well as links to my most up-to-date resume, my Linked In account, github account and my Gitlab server that I host on my home server. 
+My personal website has a little bit of information about me as well as links to my most up-to-date resume, my Linked In account and links to other places to connect with me.
 
 ##### Highlights
+- built with Sapper (Svelte), Tailwind and CSS
 - Full fledged PWA (try loading it up, then turn off your internet and re-load it. Everything except for the contact form should work)
 - [Lighthouse perf score of 100 across the board](https://googlechrome.github.io/lighthouse/viewer/?gist=36bca3776a5fb5478db23f6babeddab6)
-- CI/CD on every commit
 - Hosted on [![Vercel](https://vercel.com/button)](https://vercel.com/)
+- Of course there's a dark mode (my eyes thank me every time). It also takes system preference into account.
 
 ##### Built With
-- Nuxt.js (Vue.js)
+- [Sapper (Svelte)](https://sapper.svelte.dev/)
 - Typescript
-- Vuetify - UI Library
-- ScrollMagic - Animation Library
-- GSAP - Animation Library
+- [Tailwind CSS](https://tailwindcss.com/)
+- CSS Animations (check out the dark/light mode button animations)
+- Custom SVG Edits
+- [Svelte-Image](https://github.com/matyunya/svelte-image)
 - VSCode
 
-### Resume
-While this document and everything in it is a good overview of my non-professional experience, my resume and LinkedIn are better overviews of my professional experience. My resume can always be found on my website. Whenever I make updates they're available on my site.
 
-[Resume Document](https://www.nickbolles.com/Nicholas%20Bolles%20Resume.pdf)
+## Fantasy Pay
+- [Source](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver)
+- [More details in the projects Readme.md](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver/blob/master/README.md)
 
-### Linked In
-[linkedin.com/in/nickbolles/](https://www.linkedin.com/in/nickbolles/)
+#### Summary
+This app was the start of an entrepreneurial effort by a friend of mine. It was going to be a service for collecting and dispersing Fantasy Football and other contest based payments. Unfortunately we got a ways down the road and realized that the business model had some issues, financially and legally, so we decided to stop the project.
 
-### My Gitlab Server
-[gitlab.dev.nickbolles.com/explore/projects](https://gitlab.dev.nickbolles.com/explore/projects)
+I took this opportunity to dive into Angular 2+ and typescript. I learned a ton and really got into advanced Typescript usage. 
 
-I host a [Gitlab CE](https://about.gitlab.com/) server on my home server (powered by [Unraid](https://www.unraid.net/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/) and [Lets Encrypt](https://letsencrypt.org/)). Because all of the data is hosted locally, I keep most of my code on my gitlab server. Most of the links in this page link there. 
+##### Built With
+  - Client
+  - Angular 2+ (4.x)
+  - Angular Material 2
+  - Angular Animate
+  - Angular CDK
+  - Angular CLI
+  - Typescript
+  - SASS
+  - RXJS
+  - NGRX store
+  - Animate.css
+  - D3
+  - Moment.js
+  - Stripe (payments)
+  - Jasmine
+  - Karma
+  - Typedoc
+  - Server
+  - Node.js
+  - Express.js
+  - Passport.js
+  - Typescript
+  - Nodemailer
+  - Mongoose (and Mongodb)
+  - Socket.IO
 
-#### Dev Ops
-One of the coolest things about running my own gitlab server, and having a docker based home server, is the dev ops and auto review apps. This means that I can setup Gitlab CI/CD to spin up a docker container that will do testing, building, performance testing etc. on every commit, as well as deploy to a docker container and automatically setup the routing with Traefik and set up HTTPS with Let's Encrypt.
+## Vue App
+Source: [https://gitlab.dev.nickbolles.com/Matt-n-nick/app](https://gitlab.dev.nickbolles.com/Matt-n-nick/app)
 
-For example, when I commit a change to my website it runs through 3 phases
-1. Build the app, which will check for any build issues, especially with Typescript (this is separate because Docker hides some build issues sometimes, not quite sure why)
-3. Build a docker container for the app
-5. Deploy the docker container with Traefik configured to setup Lets Encrypt auto-magically
+Demo: https://develop-matt-n-nick-app.dev.nickbolles.com
+> (currently login is not working because of a package version issue)
+#### Summary
+This is an app that I've been working on with a buddy, Matt, to teach him a bit about how to code websites. We are both using it as an opportunity to learn Vue.js more in-depth as well as Feathers.js as the backend. 
 
-### Other Services I Run On My Server
-- [Traefik](https://traefik.io/) for HTTPS by default
-- Gitlab - [gitlab.dev.nickbolles.com/explore/projects](https://gitlab.dev.nickbolles.com/explore/projects)
-- Gitlab dev ops runners
-- Private NPM registry - [npm.nickbolles.com/](https://npm.nickbolles.com/)
-- Jira
-- MongoDB
-- MariaDB
-- Postgresql
-- Redis
-- InfluxDB
-- Elastic Search & Kibana
-- Nextcloud
-- Multiple [code-server](https://github.com/cdr/code-server) instances for development
-- Tons of other stuff, Docker is awesome!
+Originally we went down a route of making this an app for recording and reviewing specific meals at restaurants so that I can actually remember that I don't like the Chicken Parmigiana from Olive garden... Since then we've kinda just been approaching it as a learning experience and will probably use it as a base for something else in the near future.
 
-
-# Projects
+##### Built With
+- Client
+  - Nuxt.js (Vue.js)
+  - Typescript
+  - Vuex
+  - Feathers-Vuex
+  - Nuxt class component
+  - Nuxt property decorators
+  - Vuetify
+  - SASS
+- Server
+  - Node.js
+  - Feathers-plus/CLI
+  - Feathers.js
+  - Passport.js
+  - Notifme-sdk and notification-catcher
+  - Mongoose (and Mongodb)
+  - Socket.IO
 
 ## Foursee
 - [Source](https://gitlab.dev.nickbolles.com/foursee)
@@ -133,41 +171,31 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
   - Socket.IO
   - Winston.js
 
-## Fantasy Pay
-- [Source](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver)
-- [More details in the projects Readme.md](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver/blob/master/README.md)
+
+### My Website Previous Version (v2)
+www.nickbolles.com - replaced with version 3
+- [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/-/tree/master/v2-vue)
+- [CI/CD](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/pipelines)
+- [Docker containers](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/container_registry)
+- [More details in the projects Readme.md](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/blob/master/README.md)
 
 #### Summary
-This app was the start of an entrepreneurial effort by a friend of mine. It was going to be a service for collecting and dispersing Fantasy Football and other contest based payments. Unfortunately we got a ways down the road and realized that the business model had some issues, financially and legally, so we decided to stop the project.
+My personal website has a little bit of information about me as well as links to my most up-to-date resume, my Linked In account, github account and my Gitlab server that I host on my home server. 
 
-I took this opportunity to dive into Angular 2+ and typescript. I learned a ton and really got into advanced Typescript usage. 
+##### Highlights
+- Full fledged PWA (try loading it up, then turn off your internet and re-load it. Everything except for the contact form should work)
+- [Lighthouse perf score of 88](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/-/issues/13)
+- CI/CD on every commit
+- Hosted on my home server
 
 ##### Built With
-  - Client
-  - Angular 2+ (4.x)
-  - Angular Material 2
-  - Angular Animate
-  - Angular CDK
-  - Angular CLI
-  - Typescript
-  - SASS
-  - RXJS
-  - NGRX store
-  - Animate.css
-  - D3
-  - Moment.js
-  - Stripe (payments)
-  - Jasmine
-  - Karma
-  - Typedoc
-  - Server
-  - Node.js
-  - Express.js
-  - Passport.js
-  - Typescript
-  - Nodemailer
-  - Mongoose (and Mongodb)
-  - Socket.IO
+- Nuxt.js (Vue.js)
+- Typescript
+- Vuetify - UI Library
+- ScrollMagic - Animation Library
+- GSAP - Animation Library
+- VSCode
+
 
 ## Min-max GPA Calculator
 - [Live Link](https://nickbolles.github.io/minmaxgpacalc/)
@@ -186,7 +214,6 @@ This is a simple calculator that calculates your minimum and maximum attainable 
 - RXJS
 
 ## JS AST Visualizer
-- [Live Link](https://jsastexplorer.nickbolles.com/)
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/js-ast-explorer)
 
 #### Summary
@@ -200,37 +227,37 @@ This is a simple abstract symbol tree (AST) parser that prints out a visualizati
 - code-mirror editor
 - babel - for AST parsing/traversal
 
-## Vue App
-Source: [https://gitlab.dev.nickbolles.com/Matt-n-nick/app](https://gitlab.dev.nickbolles.com/Matt-n-nick/app)
+### My Gitlab Server
+[gitlab.dev.nickbolles.com/explore/projects](https://gitlab.dev.nickbolles.com/explore/projects)
 
-Demo: https://develop-matt-n-nick-app.dev.nickbolles.com
-> (currently login is not working because of a package version issue)
-#### Summary
-This is an app that I've been working on with a buddy, Matt, to teach him a bit about how to code websites. We are both using it as an opportunity to learn Vue.js more in-depth as well as Feathers.js as the backend. 
+I host a [Gitlab CE](https://about.gitlab.com/) server on my home server (powered by [Unraid](https://www.unraid.net/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/) and [Lets Encrypt](https://letsencrypt.org/)). Because all of the data is hosted locally, I keep most of my code on my gitlab server. Most of the links in this page link there. 
 
-Originally we went down a route of making this an app for recording and reviewing specific meals at restaurants so that I can actually remember that I don't like the Chicken Parmigiana from Olive garden... Since then we've kinda just been approaching it as a learning experience and will probably use it as a base for something else in the near future.
+#### Dev Ops
+One of the coolest things about running my own gitlab server, and having a docker based home server, is the dev ops and auto review apps. This means that I can setup Gitlab CI/CD to spin up a docker container that will do testing, building, performance testing etc. on every commit, as well as deploy to a docker container and automatically setup the routing with Traefik and set up HTTPS with Let's Encrypt.
 
-##### Built With
-- Client
-  - Nuxt.js (Vue.js)
-  - Typescript
-  - Vuex
-  - Feathers-Vuex
-  - Nuxt class component
-  - Nuxt property decorators
-  - Vuetify
-  - SASS
-- Server
-  - Node.js
-  - Feathers-plus/CLI
-  - Feathers.js
-  - Passport.js
-  - Notifme-sdk and notification-catcher
-  - Mongoose (and Mongodb)
-  - Socket.IO
+For example, when I commit a change to my website it runs through 3 phases
+1. Build the app, which will check for any build issues, especially with Typescript (this is separate because Docker hides some build issues sometimes, not quite sure why)
+3. Build a docker container for the app
+5. Deploy the docker container with Traefik configured to setup Lets Encrypt auto-magically
+
+### Other Services I Run On My Server
+- [Traefik](https://traefik.io/) for HTTPS by default
+- Gitlab - [gitlab.dev.nickbolles.com/explore/projects](https://gitlab.dev.nickbolles.com/explore/projects)
+- Gitlab dev ops runners
+- Private NPM registry - [npm.nickbolles.com/](https://npm.nickbolles.com/)
+- Jira
+- MongoDB
+- MariaDB
+- Postgresql
+- Redis
+- InfluxDB
+- Elastic Search & Kibana
+- Nextcloud
+- Multiple [code-server](https://github.com/cdr/code-server) instances for development
+- Tons of other stuff, Docker is awesome!
 
 
-## Open Source Contributions
+# Open Source Contributions
 ### React.js
 
 - [Next.js auth-module](https://github.com/iaincollins/next-auth)
