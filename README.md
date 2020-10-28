@@ -79,30 +79,30 @@ I took this opportunity to dive into Angular 2+ and typescript. I learned a ton 
 
 ##### Built With
   - Client
-  - Angular 2+ (4.x)
-  - Angular Material 2
-  - Angular Animate
-  - Angular CDK
-  - Angular CLI
-  - Typescript
-  - SASS
-  - RXJS
-  - NGRX store
-  - Animate.css
-  - D3
-  - Moment.js
-  - Stripe (payments)
-  - Jasmine
-  - Karma
-  - Typedoc
+    - Angular 2+ (4.x)
+    - Angular Material 2
+    - Angular Animate
+    - Angular CDK
+    - Angular CLI
+    - Typescript
+    - SASS
+    - RXJS
+    - NGRX store
+    - Animate.css
+    - D3
+    - Moment.js
+    - Stripe (payments)
+    - Jasmine
+    - Karma
+    - Typedoc
   - Server
-  - Node.js
-  - Express.js
-  - Passport.js
-  - Typescript
-  - Nodemailer
-  - Mongoose (and Mongodb)
-  - Socket.IO
+    - Node.js
+    - Express.js
+    - Passport.js
+    - Typescript
+    - Nodemailer
+    - Mongoose (and Mongodb)
+    - Socket.IO
 
 ## Vue App
 Source: [https://gitlab.dev.nickbolles.com/Matt-n-nick/app](https://gitlab.dev.nickbolles.com/Matt-n-nick/app)
@@ -143,33 +143,33 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
 
 ##### Built With
   - Client
-  - Angular 1.x (1.5.9 to be exact)
-  - Angular Material
-  - Angular Animate (ngAnimate) and custom animation code on top
-  - Typescript
-  - SASS
-  - D3
-  - Ui Router
-  - Moment.js
-  - Gulp
-  - Webpack
-  - Jasmine
-  - Karma
-  - Typedoc
-  - Cordova
-  - @nb/eduItemModel - [Private NPM Link](http://npm.nickbolles.com/#/detail/@nb/eduitemmodel)
-    - This is the model backing the project. it's complex and uses an Observable data model ([@nb/nbobservable](http://npm.nickbolles.com/#/detail/@nb/nbobservable)) based on proxies ([MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) - [npm module @nb/nbproxy](http://npm.nickbolles.com/#/detail/@nb/nbproxy)) to notify observers, **much like [Vue.js V3.0 will do](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)**
+    - Angular 1.x (1.5.9 to be exact)
+    - Angular Material
+    - Angular Animate (ngAnimate) and custom animation code on top
+    - Typescript
+    - SASS
+    - D3
+    - Ui Router
+    - Moment.js
+    - Gulp
+    - Webpack
+    - Jasmine
+    - Karma
+    - Typedoc
+    - Cordova
+    - @nb/eduItemModel - [Private NPM Link](http://npm.nickbolles.com/#/detail/@nb/eduitemmodel)
+      - This is the model backing the project. it's complex and uses an Observable data model ([@nb/nbobservable](http://npm.nickbolles.com/#/detail/@nb/nbobservable)) based on proxies ([MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) - [npm module @nb/nbproxy](http://npm.nickbolles.com/#/detail/@nb/nbproxy)) to notify observers, **much like [Vue.js V3.0 will do](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)**
   - Server
-  - Node.js
-  - Express.js
-  - Passport.js
-  - Typescript
-  - Nodemailer
-  - Handlebars
-  - Moment.js
-  - Mongoose (and Mongodb)
-  - Socket.IO
-  - Winston.js
+    - Node.js
+    - Express.js
+    - Passport.js
+    - Typescript
+    - Nodemailer
+    - Handlebars
+    - Moment.js
+    - Mongoose (and Mongodb)
+    - Socket.IO
+    - Winston.js
 
 
 ### My Website Previous Version (v2)
