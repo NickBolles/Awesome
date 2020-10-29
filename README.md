@@ -30,15 +30,14 @@ This is a list of some of the awesome stuff that I've done. Okay, not all of it 
 > While this document is a good overview of my non-professional experience, my resume and LinkedIn are better overviews of my professional experience. My most up-to-date resume can always be found on my website
 
 
-[www.nickbolles.com](https://www.nickbolles.com)
+Website: [www.nickbolles.com](https://www.nickbolles.com)
 
-[nickbolles.com/resume](https://www.nickbolles.com/resume)
+Resume: [nickbolles.com/resume](https://www.nickbolles.com/resume)
 
-[![](https://img.shields.io/static/v1?logo=LinkedIn&style=flat-square&labelColor=blue&color=blue&label=&message=Connect%20On%20LinkedIn)](https://linkedin.com/in/nickbolles)
+Linked In: [![](https://img.shields.io/static/v1?logo=LinkedIn&style=flat-square&labelColor=blue&color=blue&label=&message=Connect%20On%20LinkedIn)](https://linkedin.com/in/nickbolles)
 
+Github: [github.com/nickbolles](https://www.github.com/nickbolles)
 
-
-## Some fun Stats
 [![Nick's github stats](https://github-readme-stats.vercel.app/api?username=nickbolles&theme=gotham)](https://github.com/nickbolles)
 
 
