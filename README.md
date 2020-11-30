@@ -7,7 +7,7 @@
   - [Vue App](#vue-app)
   - [Foursee](#foursee)
   - [Simple GPA Calculator](#min-max-gpa-calculator)
-  - [JS AST Visualizer](#min-max-gpa-calculator)
+  - [JS AST Visualizer](#js-ast-visualizer)
   - [My Website (previous version - v2)](#my-website-previous-version)
   - [My Gitlab Server](#my-gitlab-server)
     - [Dev Ops & CI/CD](#dev-ops)
@@ -215,6 +215,7 @@ This is a simple calculator that calculates your minimum and maximum attainable 
 - RXJS
 
 ## JS AST Visualizer
+- [Live Link](https://jsastexplorer.nickbolles.com/)
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/js-ast-explorer)
 
 #### Summary
