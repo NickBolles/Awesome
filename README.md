@@ -36,6 +36,8 @@ Resume: [nickbolles.com/resume](https://www.nickbolles.com/resume)
 
 Linked In: [![](https://img.shields.io/static/v1?logo=LinkedIn&style=flat-square&labelColor=blue&color=blue&label=&message=Connect%20On%20LinkedIn)](https://linkedin.com/in/nickbolles)
 
+TripleByte: [TripleByte Profile](https://triplebyte.com/tb/nick-bolles-wbmlzvw) - I'm in the top 10% of engineers on TripleByte [Certificate here](https://triplebyte.com/tb/nick-bolles-wbmlzvw/certificate/track/generalist)
+
 Github: [github.com/nickbolles](https://www.github.com/nickbolles)
 
 [![Nick's github stats](https://github-readme-stats.vercel.app/api?username=nickbolles&theme=gotham)](https://github.com/nickbolles)
