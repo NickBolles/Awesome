@@ -46,7 +46,9 @@ Github: [github.com/nickbolles](https://www.github.com/nickbolles)
 
 # Projects
 
-### My Website
+### My Website 
+Oct 2020
+
 [www.nickbolles.com](https://www.nickbolles.com)
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/-/tree/master/v3-svelte)
 - [More details in the projects Readme.md](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/blob/master/README.md)
@@ -71,7 +73,9 @@ My personal website has a little bit of information about me as well as links to
 - VSCode
 
 
-## Fantasy Pay
+## Fantasy Pay 
+Feb 2016 - Oct 2017
+
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver)
 - [More details in the projects Readme.md](https://gitlab.dev.nickbolles.com/nbolles/fantasypayserver/blob/master/README.md)
 
@@ -107,7 +111,9 @@ I took this opportunity to dive into Angular 2+ and typescript. I learned a ton 
     - Mongoose (and Mongodb)
     - Socket.IO
 
-## Vue App
+## Vue App 
+Nov 2018 - Feb 2019
+
 Source: [https://gitlab.dev.nickbolles.com/Matt-n-nick/app](https://gitlab.dev.nickbolles.com/Matt-n-nick/app)
 
 Demo: https://develop-matt-n-nick-app.dev.nickbolles.com
@@ -136,7 +142,8 @@ Originally we went down a route of making this an app for recording and reviewin
   - Mongoose (and Mongodb)
   - Socket.IO
 
-## Foursee
+## Foursee 
+2015 - Feb 2017
 - [Source](https://gitlab.dev.nickbolles.com/foursee)
 
 #### Summary
@@ -175,7 +182,9 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
     - Winston.js
 
 
-### My Website Previous Version (v2)
+### My Website Previous Version (v2) 
+April 2018 - March 2019
+
 www.nickbolles.com - replaced with version 3
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/-/tree/master/v2-vue)
 - [CI/CD](https://gitlab.dev.nickbolles.com/nbolles/www_nickbolles_com/pipelines)
@@ -201,6 +210,8 @@ My personal website has a little bit of information about me as well as links to
 
 
 ## Min-max GPA Calculator
+Jan 14 2017
+
 - [Live Link](https://nickbolles.github.io/minmaxgpacalc/)
 - [Source](https://github.com/NickBolles/minmaxgpacalc)
 
@@ -217,6 +228,7 @@ This is a simple calculator that calculates your minimum and maximum attainable 
 - RXJS
 
 ## JS AST Visualizer
+Mar 2019 - April 2019
 - [Live Link](https://jsastexplorer.nickbolles.com/)
 - [Source](https://gitlab.dev.nickbolles.com/nbolles/js-ast-explorer)
 
