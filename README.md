@@ -2,13 +2,13 @@
 - [Summary](#summary)
 - [Connect with me](#connect-with-me)
 - [Projects](#projects)
-  - [My Website](#my-website)
+  - [My Website](#my-website-v3)
   - [Fantasy Pay](#fantasy-pay)
   - [Vue App](#vue-app)
   - [Foursee](#foursee)
   - [Simple GPA Calculator](#min-max-gpa-calculator)
   - [JS AST Visualizer](#js-ast-visualizer)
-  - [My Website (previous version - v2)](#my-website-previous-version)
+  - [My Website (previous version - v2)](#my-website-v2)
   - [My Gitlab Server](#my-gitlab-server)
     - [Dev Ops & CI/CD](#dev-ops)
     - [Other Services I Run On My Server](#other-services-i-run-on-my-server)
@@ -46,7 +46,7 @@ Github: [github.com/nickbolles](https://www.github.com/nickbolles)
 
 # Projects
 
-### My Website 
+### My Website v3
 Oct 2020
 
 [www.nickbolles.com](https://www.nickbolles.com)
@@ -182,7 +182,7 @@ This was the first app that I really dove into. I learned a ton and re-wrote it 
     - Winston.js
 
 
-### My Website Previous Version (v2) 
+### My Website v2 
 April 2018 - March 2019
 
 www.nickbolles.com - replaced with version 3
