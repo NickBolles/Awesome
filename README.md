@@ -58,10 +58,10 @@ My personal website has a little bit of information about me as well as links to
 
 ##### Highlights
 - built with Sapper (Svelte), Tailwind and CSS
-- Full fledged PWA (try loading it up, then turn off your internet and re-load it. Everything except for the contact form should work)
+- Full fledged PWA (try loading it up, then turn off your internet and re-load it)
 - [Lighthouse perf score of 100 across the board](https://googlechrome.github.io/lighthouse/viewer/?gist=36bca3776a5fb5478db23f6babeddab6)
 - Hosted on [Vercel](https://vercel.com/)
-- Of course there's a dark mode (my eyes thank me every time). It also takes system preference into account.
+- Of course there's a dark mode. It also takes system preference into account.
 
 ##### Built With
 - [Sapper (Svelte)](https://sapper.svelte.dev/)
